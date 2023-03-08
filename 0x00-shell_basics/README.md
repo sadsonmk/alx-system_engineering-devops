@@ -9,3 +9,4 @@ The eighth file 7-movethatfile is for moving a file called betty from /tmp to /t
 The ninth file 8-firstdelete is for deleting the file betty , the one we moved in 7-movethatfile.
 The tenth file 9-firstdirdeletion isfor removing the directory, my_first_directory.
 The eleventh file 10-back is for changing the working directory to the previous one.
+The twelveth file 11-lists is for listing files from a number of directories.
