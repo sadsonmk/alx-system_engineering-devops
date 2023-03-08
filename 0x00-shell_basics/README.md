@@ -6,3 +6,4 @@ The fifth file 4-listmorefiles for long listing including hidden files.
 The sixth file 5-listfilesdigitonly is for long listing with user and group IDs displayed numerically as well as hidden files.
 The seventh file 6-firstdirectory is for creating a directry in the tmp folder.
 The eighth file 7-movethatfile is for moving a file called betty from /tmp to /tmp/my_first_directory.
+The ninth file 8-firstdelete is for deleting the file betty , the one we moved in 7-movethatfile.
