@@ -4,3 +4,4 @@ The third file 2-bring_me_home is for changing the working directory to the user
 The fourth file 3-listfiles for long listing.
 The fifth file 4-listmorefiles for long listing including hidden files.
 The sixth file 5-listfilesdigitonly is for long listing with user and group IDs displayed numerically as well as hidden files.
+The seventh file 6-firstdirectory is for creating a directry in the tmp folder.
