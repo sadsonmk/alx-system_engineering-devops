@@ -16,3 +16,4 @@ The 15th file is for copying html files from the current working directory to th
 The 16th file 100-lets_move is to move all files beginning with a capital letter.
 The 17th file 101-clean_emacs is for cleaning any emacs files.
 The 18th file 102-tree is for creating a directoyr tree.
+The 19th file 103-commas is for listing seperated by commas.
