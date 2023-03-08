@@ -13,4 +13,5 @@ The twelveth file 11-lists is for listing files from a number of directories.
 The 13th file 12-file_type is for checking the file type iamafile in tmp folder.
 The 14th file is for creating a symbolic link.
 The 15th file is for copying html files from the current working directory to the parent directory.
-The 16th advanced command to move all files beginning with a capital letter.
+The 16th file 100-lets_move is to move all files beginning with a capital letter.
+The 17th file 101-clean_emacs is for cleaning any emacs files.
