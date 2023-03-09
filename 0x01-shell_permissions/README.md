@@ -15,3 +15,5 @@ The file alx-system_engineering-devops is for adding execute permission to the o
 
 The file 7-everybody is for adding the execute permission to the owner, group and others.
 
+The file 8-James_Bond sets no permissions to the owner and group, and gives all permissions to other users.
+
