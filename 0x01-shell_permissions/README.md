@@ -9,3 +9,5 @@ The file 3-new_owner is for changing the owner of the file called hello.
 
 The file 4-empty is for creating and empty file called hello.
 
+The file 5-execute is for adding execute permission to the owner of the file hello.
+
