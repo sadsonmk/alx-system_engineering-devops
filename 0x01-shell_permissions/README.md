@@ -23,3 +23,5 @@ The file 10-mirror_permissions is for using the permissions of another file onto
 
 The file 11-directories_permissions is for changing the current directory's subdirectories' execute permissions for all users.
 
+The file 12-directory_permissions is for creating a directory and changing its permissions.
+
