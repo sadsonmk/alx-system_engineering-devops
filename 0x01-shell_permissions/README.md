@@ -21,3 +21,5 @@ The file 9-John_Doe is for adding all permissions to the user(owner) and give re
 
 The file 10-mirror_permissions is for using the permissions of another file onto another.
 
+The file 11-directories_permissions is for changing the current directory's subdirectories' execute permissions for all users.
+
