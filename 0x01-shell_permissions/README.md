@@ -31,3 +31,5 @@ The file 100-change_owner_and_group is for changing owner and group for files.
 
 The file 101-symbolic_link_permissions changes the owner and group of a symbolic link.
 
+The file 102-if_only is for changing the owner only if the owner has a certain name.
+
