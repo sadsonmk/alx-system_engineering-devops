@@ -19,3 +19,5 @@ The file 8-James_Bond sets no permissions to the owner and group, and gives all 
 
 The file 9-John_Doe is for adding all permissions to the user(owner) and give read and execute permissions to the group, and give write and executer permissions to other users.
 
+The file 10-mirror_permissions is for using the permissions of another file onto another.
+
