@@ -17,3 +17,5 @@ The file 7-everybody is for adding the execute permission to the owner, group an
 
 The file 8-James_Bond sets no permissions to the owner and group, and gives all permissions to other users.
 
+The file 9-John_Doe is for adding all permissions to the user(owner) and give read and execute permissions to the group, and give write and executer permissions to other users.
+
