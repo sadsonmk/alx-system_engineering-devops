@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --color=always "^[[:alpha:]]" /etc/ssh/sshd_config
+grep -i --color=always "^[[:alpha:]]" /etc/ssh/sshd_config
