@@ -12,3 +12,5 @@ The file 5-firstlines is for reading the first 10 lines of /etc/passwd.
 
 The file 6-third_line is for displaying the third line of the file iacta.
 
+The file 7-file is for creating a file with text inside it.
+
