@@ -14,3 +14,5 @@ The file 6-third_line is for displaying the third line of the file iacta.
 
 The file 7-file is for creating a file with text inside it.
 
+The file 8-cwd_state is for writing into a file the result of a given command.
+
