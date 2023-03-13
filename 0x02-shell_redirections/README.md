@@ -26,3 +26,5 @@ The file 12-newest_files is for listing 10 newest files in the current directory
 
 The file 13-unique is for creating a script that takes a list of words as input and prints only words that appear exactly once.
 
+The file 14-findthatword is for searching the word root in /etc/passwd.
+
