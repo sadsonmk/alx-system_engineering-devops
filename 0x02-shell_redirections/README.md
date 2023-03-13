@@ -30,3 +30,5 @@ The file 14-findthatword is for searching the word root in /etc/passwd.
 
 The file 15-countthatword is for counting the number of lines that contain the word 'bin' in /etc/passwd.
 
+The file 16-whatsnext is for displaying lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
