@@ -34,3 +34,5 @@ The file 16-whatsnext is for displaying lines containing the pattern “root” 
 
 The file 17-hidethisword is for displaying all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 
+The file 18-letteronly is for displaying all lines of the file /etc/ssh/sshd_config starting with a letter.
+
