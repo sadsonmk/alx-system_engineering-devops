@@ -8,3 +8,5 @@ The file 3-twofiles is for reading two files at the same time.
 
 The file 4-lastlines is for reading the last 10 lines of /etc/passwd.
 
+The file 5-firstlines is for reading the first 10 lines of /etc/passwd.
+
