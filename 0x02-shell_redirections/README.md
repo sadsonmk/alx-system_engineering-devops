@@ -23,3 +23,6 @@ The file 10-no_more_js is for removing js files recursively.
 The file 11-directories is for counting directories.
 
 The file 12-newest_files is for listing 10 newest files in the current directory.
+
+The file 13-unique is for creating a script that takes a list of words as input and prints only words that appear exactly once.
+
