@@ -6,3 +6,5 @@ The file 2-hellofile is to read the contents of /etc/passwd.
 
 The file 3-twofiles is for reading two files at the same time.
 
+The file 4-lastlines is for reading the last 10 lines of /etc/passwd.
+
