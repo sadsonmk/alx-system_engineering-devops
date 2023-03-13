@@ -20,3 +20,4 @@ The file 9-duplicate_last_line is for duplicating the last line of a file.
 
 The file 10-no_more_js is for removing js files recursively.
 
+The file 11-directories is for counting directories.
