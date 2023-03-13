@@ -28,3 +28,5 @@ The file 13-unique is for creating a script that takes a list of words as input 
 
 The file 14-findthatword is for searching the word root in /etc/passwd.
 
+The file 15-countthatword is for counting the number of lines that contain the word 'bin' in /etc/passwd.
+
