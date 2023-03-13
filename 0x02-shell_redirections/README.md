@@ -38,3 +38,5 @@ The file 18-letteronly is for displaying all lines of the file /etc/ssh/sshd_con
 
 The file 19-AZ is for translating letters.
 
+The file 20-hiago is for removing letters.
+
