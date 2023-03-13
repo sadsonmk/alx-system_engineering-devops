@@ -32,3 +32,5 @@ The file 15-countthatword is for counting the number of lines that contain the w
 
 The file 16-whatsnext is for displaying lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 
+The file 17-hidethisword is for displaying all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
