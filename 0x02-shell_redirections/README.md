@@ -10,3 +10,5 @@ The file 4-lastlines is for reading the last 10 lines of /etc/passwd.
 
 The file 5-firstlines is for reading the first 10 lines of /etc/passwd.
 
+The file 6-third_line is for displaying the third line of the file iacta.
+
