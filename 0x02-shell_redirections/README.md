@@ -40,3 +40,4 @@ The file 19-AZ is for translating letters.
 
 The file 20-hiago is for removing letters.
 
+The file 21-reverse is for reversing words.
