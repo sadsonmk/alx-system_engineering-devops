@@ -13,3 +13,5 @@ The file 5-local_variables is for listing all local variables and environment va
 
 The file 6-create_local_variable is for setting a new local variable.
 
+The file 7-create_global_variable is for creating a new global variable.
+
