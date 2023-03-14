@@ -46,3 +46,5 @@ The file 22-users_and_homes displays all users and their home directories, sorte
 
 The file 100-empty_casks is for a command that finds all empty files and directories in the current directory and all sub-directories. Using certain conditions.
 
+The file 101-gifs lists all the files with a .gif extension in the current directory and all its sub-directories.
+
