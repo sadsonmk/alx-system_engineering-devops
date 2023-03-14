@@ -21,3 +21,5 @@ The file 9-divide_and_rule is for printing  the result of POWER divided by DIVID
 
 The file 10-love_exponent_breath is for displaying the result of BREATH to the power LOVE.
 
+The file 11-binary_to_decimal is for converting a binary number to a decimal number.
+
