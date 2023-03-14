@@ -15,3 +15,5 @@ The file 6-create_local_variable is for setting a new local variable.
 
 The file 7-create_global_variable is for creating a new global variable.
 
+The file 8-true_knowledge is for printing the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
