@@ -23,3 +23,5 @@ The file 10-love_exponent_breath is for displaying the result of BREATH to the p
 
 The file 11-binary_to_decimal is for converting a binary number to a decimal number.
 
+The file 12-combinations is for printing all possible combinations of two letters.
+
