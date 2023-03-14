@@ -19,3 +19,5 @@ The file 8-true_knowledge is for printing the result of the addition of 128 with
 
 The file 9-divide_and_rule is for printing  the result of POWER divided by DIVIDE, followed by a new line.
 
+The file 10-love_exponent_breath is for displaying the result of BREATH to the power LOVE.
+
