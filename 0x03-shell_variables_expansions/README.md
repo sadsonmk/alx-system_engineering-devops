@@ -25,3 +25,5 @@ The file 11-binary_to_decimal is for converting a binary number to a decimal num
 
 The file 12-combinations is for printing all possible combinations of two letters.
 
+The file 13-print_float is for printing a number with two decimal places, followed by a new line.
+
