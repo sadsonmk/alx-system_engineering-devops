@@ -31,3 +31,5 @@ The file 100-decimal_to_hexadecimal is for converting base 10 to base 16.
 
 The file rot13 encryption is for encrypting files using the rot13 encryption.
 
+The file 102-odd is for printing every other line from the input, starting with the first line.
+
