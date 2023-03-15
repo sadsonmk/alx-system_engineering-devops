@@ -29,3 +29,5 @@ The file 13-print_float is for printing a number with two decimal places, follow
 
 The file 100-decimal_to_hexadecimal is for converting base 10 to base 16.
 
+The file rot13 encryption is for encrypting files using the rot13 encryption.
+
