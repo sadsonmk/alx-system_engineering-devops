@@ -27,3 +27,5 @@ The file 12-combinations is for printing all possible combinations of two letter
 
 The file 13-print_float is for printing a number with two decimal places, followed by a new line.
 
+The file 100-decimal_to_hexadecimal is for converting base 10 to base 16.
+
