@@ -33,3 +33,5 @@ The file rot13 encryption is for encrypting files using the rot13 encryption.
 
 The file 102-odd is for printing every other line from the input, starting with the first line.
 
+The file 103-water_and_stir is for adding two numbers stored in the environment variables WATER and STIR and prints the result.
+
