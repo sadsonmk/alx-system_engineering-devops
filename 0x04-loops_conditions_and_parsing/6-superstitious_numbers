@@ -10,12 +10,16 @@ while [ $n -lt 21 ];
 do
 	case $n in
 		4)
+			echo "$n"
 			echo "$china"
 			;;
 		9)
+			echo "$n"
 			echo "$japan"
+
 			;;
 		17)
+			echo "$n"
 			echo "$Italy"
 			;;
 		*)
