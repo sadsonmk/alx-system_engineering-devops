@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
+
+n=10
+value="Best School"
+
+until [ $n -lt 1 ];
+do
+	if [ $n -eq 2 ]; then
+		echo "$value"
+		echo "Hi"
+		echo "$value"
+		break
+	fi
+		echo "$value"
+		n=$((n-1))
+done
