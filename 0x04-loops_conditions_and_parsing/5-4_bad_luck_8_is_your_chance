@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#  Bash script that loops from 1 to 10 and displays Best School, good luck and bad luck
+
+n=1
+value="Best School"
+good="good luck"
+bad="bad luck"
+
+while [ $n -lt 11 ];
+do
+	if [ $n -eq 4 ]; then
+		echo "$bad"
+	elif [ $n -eq 8 ]; then
+		echo "$good"
+	else
+		echo "$value"
+	fi
+	n=$((n+1))
+done
