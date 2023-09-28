@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+value="Best School"
+n=10
+for (( a=1; a<=n; a++ ));
+do
+	echo "$value"
+done
