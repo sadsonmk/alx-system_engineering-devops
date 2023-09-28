@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# a Bash script that displays numbers from 1 to 20
+
+n=1
+china="bad luck from China"
+japan="bad luck from Japan"
+Italy="bad luck from Italy"
+
+while [ $n -lt 21 ];
+do
+	case $n in
+		4)
+			echo "$china"
+			;;
+		9)
+			echo "$japan"
+			;;
+		17)
+			echo "$Italy"
+			;;
+		*)
+			echo "$n"
+			;;
+	esac
+	n=$((n+1))
+
+done	
