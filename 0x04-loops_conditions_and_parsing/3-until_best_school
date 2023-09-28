@@ -3,7 +3,7 @@
 
 n=10
 value="Best School"
-until [ $n -lt 0 ];
+until [ $n -lt 1 ];
 do
 	echo "$value"
 	n=$((n-1))
