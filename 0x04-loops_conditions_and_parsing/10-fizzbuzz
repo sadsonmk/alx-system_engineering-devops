@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# a Bash script that displays numbers from 1 to 100 as well as Fizz, Buzz and FizzBuzz
+
+n=1
+
+while [ $n -lt 101 ];
+do
+	if [ $((n%5)) -eq 0 ] && [ $((n%3)) -eq 0 ]; then
+		echo "FizzBuzz"
+	elif [ $((n%5)) -eq 0 ]; then
+		echo "Buzz"
+	elif [ $((n%3)) -eq 0 ]; then
+		echo "Fizz"
+	else
+		echo "$n"
+	fi
+	n=$((n+1))
+done
