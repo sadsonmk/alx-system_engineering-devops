@@ -5,5 +5,5 @@ process=$(pgrep ./4-to_infinity_and_beyond)
 
 for proc in $process;
 do
-	kill "$proc"
+	kill -s "$proc"
 done
