@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
 # stops 4-to_infinity_and_beyond process
 
-process=$(pgrep 4-to_infinity_and_beyond)
-
-for proc in $process;
-do
-	kill -9 "$proc"
-done
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
