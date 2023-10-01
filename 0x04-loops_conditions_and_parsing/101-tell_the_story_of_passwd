@@ -3,7 +3,10 @@
 
 command="/etc/passwd"
 
-while IFS= read -r file;
+while read -r file;
 do
-	echo "$file"
+	IFS=:
+	set "$file"
+	echo "The user $1 is part of the $4 gang, lives in $6 and rides $7. $3's place is protected by the passcode $2, more info about the user here: $5"
+
 done < "$command"
