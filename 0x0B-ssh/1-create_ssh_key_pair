@@ -3,4 +3,4 @@
 
 key_name="school"
 pass="betty"
-ssh-keygen -t rsa -b 4096 -P pass  -f ~/.ssh/$key_name
+ssh-keygen -t rsa -b 4096 -P pass  -f ./$key_name
