@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configures ssh such that you can connect without typing a password
+
+Host *
+	HostName 54.210.174.199
+	IdentiyiFile ~/.ssh/school
+	PubkeyAuthentication yes
+	PasswordAuthentication no
