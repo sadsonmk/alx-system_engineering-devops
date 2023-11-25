@@ -2,5 +2,5 @@
 # a Bash script that creates an RSA key pair
 
 key_name="school"
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/$key_name
-echo "betty" | ssh-keygen -p -f ~/.ssh/$key_name
+pass="betty"
+ssh-keygen -t rsa -b 4096 -P pass  -f ~/.ssh/$key_name
