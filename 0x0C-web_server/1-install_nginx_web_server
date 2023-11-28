@@ -2,7 +2,7 @@
 # installs nginx on web-01
 # creates an index.html file with hello world! text
 
-apt-get update
-apt-get install -y nginx
-echo "Hello World!" > /var/www/html/index.html
-nginx -s restart
+sudo apt-get update
+sudo apt-get install -y nginx
+sudo echo "Hello World!" > /var/www/html/index.html
+sudo nginx -s restart
