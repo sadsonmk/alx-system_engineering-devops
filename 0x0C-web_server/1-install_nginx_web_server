@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# installs nginx on web-01
+# creates an index.html file with hello world! text
+
+apt-get update
+apt-get install -y nginx
+echo "Hello World!" > /var/www/html/index.html
+nginx -s restart
