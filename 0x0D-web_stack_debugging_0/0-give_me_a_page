@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# installs apache into a container
+
+service apache2 start
