@@ -9,5 +9,6 @@ service nginx restart
 custom_header="X-Served-By"
 value=$(hostname)
 
-sed -i "/a add_header $custom_header $value;" /etc/nginx/nginx.conf
+sed -i "21a \
+add_header $custom_header $value;" /etc/nginx/nginx.conf
 nginx -s reload
