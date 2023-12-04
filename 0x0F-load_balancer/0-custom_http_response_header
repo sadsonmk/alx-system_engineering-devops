@@ -10,5 +10,5 @@ custom_header="X-Served-By"
 value=$(hostname)
 
 sed -i "21a \
-add_header $custom_header $value;" /etc/nginx/nginx.conf
+add_header $custom_header $value;" /etc/nginx/sites-available/default
 nginx -s reload
