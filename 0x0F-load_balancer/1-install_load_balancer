@@ -7,18 +7,15 @@ echo | sudo add-apt-repository ppa:vbernat/haproxy-2.8
 
 apt-get -y install haproxy=2.8.\*
 
-cat >> /etc/haproxy/haproxy.cfg <<EOF
-frontend lb-01-proxy
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+echo "frontend lb-01-proxy
 	bind *:80
 	default_backend lb-01-backend
-EOF
 
-cat >> /etc/haproxy/haproxy.cfg <<EOF
 backend lb-01-backend
 	balance roundrobin
 	server 322316-web-01 18.209.225.36:80 check
 	server 322316-web-02 52.87.234.219:80 check
-EOF
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 
-echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 service haproxy restart
