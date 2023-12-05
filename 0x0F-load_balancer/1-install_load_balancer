@@ -3,7 +3,7 @@
 
 apt-get update
 apt-get -y install --no-install-recommends software-properties-common
-add-apt-repository ppa:vbernat/haproxy-2.8
+echo | sudo add-apt-repository ppa:vbernat/haproxy-2.8
 
 apt-get -y install haproxy=2.8.\*
 
