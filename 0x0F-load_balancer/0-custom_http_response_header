@@ -5,10 +5,8 @@ apt-get update
 apt-get install -y nginx
 
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
-service nginx restart
 custom_header="X-Served-By"
 value=$(hostname)
 
-sed -i "21a \
-add_header $custom_header $value;" /etc/nginx/sites-available/default
-nginx -s reload
+sed -i "/server_name _/a add_header $custom_header $value;" /etc/nginx/sites-available/default
+service nginx restart
