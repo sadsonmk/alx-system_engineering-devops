@@ -10,7 +10,7 @@ apt-get -y install haproxy=2.8.\*
 cat >> /etc/haproxy/haproxy.cfg <<EOF
 frontend lb-01-proxy
 	bind *:80
-	use_backend lb-01-backend
+	default_backend lb-01-backend
 EOF
 
 cat >> /etc/haproxy/haproxy.cfg <<EOF
