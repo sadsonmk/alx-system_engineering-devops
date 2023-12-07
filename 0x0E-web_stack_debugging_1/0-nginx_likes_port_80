@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# a Bash script that configures a server to listen to port 80
+
+sudo apt-get uninstall nginx
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install -y nginx
+sudo service nginx start 
