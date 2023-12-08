@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# displays information about subdomains
+# shellcheck disable=SC2086
+subdomain_display () {
+	my_subdomains=("www" "lb-01" "web-01" "web-02")
+
+	if [ ! $2 ]; then
+		for sub_domain in "${my_subdomains[@]}"
+		do
+			url="$sub_domain.$1"
+			dig $url | grep -A1 'ANSWER SECTION:' | tail -1 > myfile.txt
+
+			awk  '{ split($0, sub_d, ".");
+			print "The subdomain " sub_d[1] " is a " $4 " record and points to " $5 }' myfile.txt
+		done
+	else
+		url="$2.$1"
+		dig $url | grep -A1 'ANSWER SECTION:' | tail -1 > onefile.txt
+
+		awk '{ split($0, sub_d, ".");
+		print "The subdomain " sub_d[1] " is a " $4 " record and points to " $5 }' onefile.txt
+	fi
+	}	
+subdomain_display "$1" "$2"
