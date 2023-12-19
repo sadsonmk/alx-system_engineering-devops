@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# runs the whoami command under the user passed as an argument
+
+# check if the user passes an argument
+
+if [ ! "$1" ]; then
+	echo "Please provide a user."
+	exit
+fi
+
+my_user="$1"
+
+# checks if user exists
+if [ "$(id -u "$my_user" 2>/dev/null)" ]; then
+	sudo -u "$my_user" whoami
+else
+	echo "user '$my_user' does not exist."
+	exit
+fi
+exit
