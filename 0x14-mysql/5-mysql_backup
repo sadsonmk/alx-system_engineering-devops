@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# generates a MySQL dump and creates a compressed archive out of it.
+
+today="$(date +%d-%m-%Y)"
+
+if [ ! "$1" ]; then
+	echo "Please enter a password"
+	exit
+else
+	pass="$1"
+	mysqldump -u root -p"$pass" --all-databases > backup.sql
+	tar -czvf "$today.tar.gz" backup.sql
+fi
+exit
