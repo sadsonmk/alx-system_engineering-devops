@@ -28,9 +28,9 @@ if __name__ == '__main__':
         USER_ID = str(user.get('userId'))
         TSK_COMPLETED = str(user.get('completed'))
         TSK_TITLE = user.get('title')
-        ln = f"'{USER_ID}','{USRNAME}','{TSK_COMPLETED}','{TSK_TITLE}'"
+        ln = f'{USER_ID},{USRNAME},{TSK_COMPLETED},{TSK_TITLE}'
         result.append(ln.split(','))
 
     with open(f'{USER_ID}.csv', 'w',) as csfile:
-        write = csv.writer(csfile)
+        write = csv.writer(csfile, quoting=csv.QUOTE_ALL)
         write.writerows(result)
