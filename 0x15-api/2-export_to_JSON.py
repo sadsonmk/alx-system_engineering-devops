@@ -23,8 +23,7 @@ if __name__ == '__main__':
         new_dict['completed'] = info['completed']
         new_dict['username'] = usr_data
         data_list.append(new_dict)
-        user_id = info['userId']
-    my_dict = {user_id: data_list}
+    my_dict = {emp_id: data_list}
 
     with open(f'{emp_id}.json', 'w') as my_file:
-        data = json.dump(my_dict, my_file)
+        json.dump(my_dict, my_file)
