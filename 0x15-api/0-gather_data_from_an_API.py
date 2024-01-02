@@ -22,8 +22,8 @@ if __name__ == '__main__':
         user_id = int(user.get('id'))
         if user_id == employee_id:
             EMPLOYEE_NAME = user.get('name')
-    print(f"Employee {EMPLOYEE_NAME} is done with \
-    tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
+    print(f"Employee {EMPLOYEE_NAME} is done with\
+ tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
 
     for info in done_tasks:
         my_tasks = info.get('title')
