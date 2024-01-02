@@ -21,16 +21,16 @@ if __name__ == '__main__':
     for user in usr_info:
         user_id = int(user.get('id'))
         if user_id == emp_id:
-            USERNAME = user.get('username')
+            USRNAME = user.get('username')
 
     result = []
     for user in info:
         USER_ID = user.get('userId')
-        TASK_COMPLETED_STATUS = user.get('completed')
-        TASK_TITLE = user.get('title')
-        ln = f'{USER_ID},{USERNAME},{TASK_COMPLETED_STATUS},{TASK_TITLE}'
+        TSK_COMPLETED_STATUS = user.get('completed')
+        TSK_TITLE = user.get('title')
+        ln = f'"{USER_ID}","{USRNAME}","{TSK_COMPLETED_STATUS}","{TSK_TITLE}"'
         result.append(ln.split(','))
-
+    print(result)
     with open(f'{USER_ID}.csv', 'w',) as csfile:
         write = csv.writer(csfile)
         write.writerows(result)
