@@ -19,9 +19,9 @@ if __name__ == '__main__':
     data_list = []
     new_dict = {}
     for info in data:
-        new_dict['task'] = info['title']
-        new_dict['completed'] = info['completed']
         new_dict['username'] = usr_data
+        new_dict['completed'] = info['completed']
+        new_dict['task'] = info['title']
         data_list.append(new_dict)
     my_dict = {emp_id: data_list}
 
