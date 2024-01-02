@@ -17,15 +17,13 @@ if __name__ == '__main__':
     usr_data = requests.get(usr_url).json().get('username')
 
     data_list = []
-    data_len = len(data)
+    new_dict = {}
     for info in data:
-        info.pop('userId')
-        info.pop('id')
-        info['task'] = info['title']
-        info.pop('title')
-        info['username'] = usr_data
-        data_list.append(info)
+        new_dict['task'] = info['title']
+        new_dict['completed'] = info['completed']
+        new_dict['username'] = usr_data
+        data_list.append(new_dict)
     my_dict = {emp_id: data_list}
 
     with open(f'{emp_id}.json', 'w') as my_file:
-        json.dump(my_dict, my_file)
+        data = json.dump(my_dict, my_file)
